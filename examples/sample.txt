@@ -1,0 +1,16 @@
+This is a sample text file for testing the TCP file transfer system.
+
+Features demonstrated:
+- File transfer over TCP
+- Progress tracking
+- Error handling
+- Multiple file support
+
+You can use this file to test the client and server components.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+This file contains enough content to demonstrate the chunked transfer mechanism
+and progress reporting features of the file transfer system.

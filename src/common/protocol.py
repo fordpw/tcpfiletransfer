@@ -12,11 +12,11 @@ CHUNK_SIZE = 4096  # Size of file chunks to send
 MAX_FILENAME_SIZE = 255  # Maximum filename length
 
 # Message types
-MSG_FILE_INFO = b'FINFO'
-MSG_FILE_DATA = b'FDATA'
+MSG_FILE_INFO = b'INFO'
+MSG_FILE_DATA = b'DATA'
 MSG_FILE_END = b'FEND'
-MSG_ACK = b'ACK'
-MSG_ERROR = b'ERR'
+MSG_ACK = b'ACK_'
+MSG_ERROR = b'ERR_'
 
 
 class ProtocolError(Exception):
